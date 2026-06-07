@@ -1,0 +1,852 @@
+[
+  {
+    "memory_id": "LES001",
+    "event_type": "lesson",
+    "timestamp": "2026-06-01T17:00:00",
+    "resolution_id": "RES002",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES002",
+    "event_type": "lesson",
+    "timestamp": "2026-06-01T19:00:00",
+    "resolution_id": "RES004",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES003",
+    "event_type": "lesson",
+    "timestamp": "2026-06-01T21:00:00",
+    "resolution_id": "RES006",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES004",
+    "event_type": "lesson",
+    "timestamp": "2026-06-01T23:00:00",
+    "resolution_id": "RES008",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES005",
+    "event_type": "lesson",
+    "timestamp": "2026-06-02T01:00:00",
+    "resolution_id": "RES010",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES006",
+    "event_type": "lesson",
+    "timestamp": "2026-06-02T03:00:00",
+    "resolution_id": "RES012",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES007",
+    "event_type": "lesson",
+    "timestamp": "2026-06-02T05:00:00",
+    "resolution_id": "RES014",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES008",
+    "event_type": "lesson",
+    "timestamp": "2026-06-02T07:00:00",
+    "resolution_id": "RES016",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES009",
+    "event_type": "lesson",
+    "timestamp": "2026-06-02T09:00:00",
+    "resolution_id": "RES018",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES010",
+    "event_type": "lesson",
+    "timestamp": "2026-06-02T11:00:00",
+    "resolution_id": "RES020",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES011",
+    "event_type": "lesson",
+    "timestamp": "2026-06-02T13:00:00",
+    "resolution_id": "RES022",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES012",
+    "event_type": "lesson",
+    "timestamp": "2026-06-02T15:00:00",
+    "resolution_id": "RES024",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES013",
+    "event_type": "lesson",
+    "timestamp": "2026-06-02T17:00:00",
+    "resolution_id": "RES026",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES014",
+    "event_type": "lesson",
+    "timestamp": "2026-06-02T19:00:00",
+    "resolution_id": "RES028",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES015",
+    "event_type": "lesson",
+    "timestamp": "2026-06-02T21:00:00",
+    "resolution_id": "RES030",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES016",
+    "event_type": "lesson",
+    "timestamp": "2026-06-02T23:00:00",
+    "resolution_id": "RES032",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES017",
+    "event_type": "lesson",
+    "timestamp": "2026-06-03T01:00:00",
+    "resolution_id": "RES034",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES018",
+    "event_type": "lesson",
+    "timestamp": "2026-06-03T03:00:00",
+    "resolution_id": "RES036",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES019",
+    "event_type": "lesson",
+    "timestamp": "2026-06-03T05:00:00",
+    "resolution_id": "RES038",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES020",
+    "event_type": "lesson",
+    "timestamp": "2026-06-03T07:00:00",
+    "resolution_id": "RES040",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES021",
+    "event_type": "lesson",
+    "timestamp": "2026-06-03T09:00:00",
+    "resolution_id": "RES042",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES022",
+    "event_type": "lesson",
+    "timestamp": "2026-06-03T11:00:00",
+    "resolution_id": "RES044",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES023",
+    "event_type": "lesson",
+    "timestamp": "2026-06-03T13:00:00",
+    "resolution_id": "RES046",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES024",
+    "event_type": "lesson",
+    "timestamp": "2026-06-03T15:00:00",
+    "resolution_id": "RES048",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES025",
+    "event_type": "lesson",
+    "timestamp": "2026-06-03T17:00:00",
+    "resolution_id": "RES050",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES026",
+    "event_type": "lesson",
+    "timestamp": "2026-06-03T19:00:00",
+    "resolution_id": "RES052",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES027",
+    "event_type": "lesson",
+    "timestamp": "2026-06-03T21:00:00",
+    "resolution_id": "RES054",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES028",
+    "event_type": "lesson",
+    "timestamp": "2026-06-03T23:00:00",
+    "resolution_id": "RES056",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES029",
+    "event_type": "lesson",
+    "timestamp": "2026-06-04T01:00:00",
+    "resolution_id": "RES058",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES030",
+    "event_type": "lesson",
+    "timestamp": "2026-06-04T03:00:00",
+    "resolution_id": "RES060",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES031",
+    "event_type": "lesson",
+    "timestamp": "2026-06-04T05:00:00",
+    "resolution_id": "RES062",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES032",
+    "event_type": "lesson",
+    "timestamp": "2026-06-04T07:00:00",
+    "resolution_id": "RES064",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES033",
+    "event_type": "lesson",
+    "timestamp": "2026-06-04T09:00:00",
+    "resolution_id": "RES066",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES034",
+    "event_type": "lesson",
+    "timestamp": "2026-06-04T11:00:00",
+    "resolution_id": "RES068",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES035",
+    "event_type": "lesson",
+    "timestamp": "2026-06-04T13:00:00",
+    "resolution_id": "RES070",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES036",
+    "event_type": "lesson",
+    "timestamp": "2026-06-04T15:00:00",
+    "resolution_id": "RES072",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES037",
+    "event_type": "lesson",
+    "timestamp": "2026-06-04T17:00:00",
+    "resolution_id": "RES074",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES038",
+    "event_type": "lesson",
+    "timestamp": "2026-06-04T19:00:00",
+    "resolution_id": "RES076",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES039",
+    "event_type": "lesson",
+    "timestamp": "2026-06-04T21:00:00",
+    "resolution_id": "RES078",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES040",
+    "event_type": "lesson",
+    "timestamp": "2026-06-04T23:00:00",
+    "resolution_id": "RES080",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES041",
+    "event_type": "lesson",
+    "timestamp": "2026-06-05T01:00:00",
+    "resolution_id": "RES082",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES042",
+    "event_type": "lesson",
+    "timestamp": "2026-06-05T03:00:00",
+    "resolution_id": "RES084",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES043",
+    "event_type": "lesson",
+    "timestamp": "2026-06-05T05:00:00",
+    "resolution_id": "RES086",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES044",
+    "event_type": "lesson",
+    "timestamp": "2026-06-05T07:00:00",
+    "resolution_id": "RES088",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES045",
+    "event_type": "lesson",
+    "timestamp": "2026-06-05T09:00:00",
+    "resolution_id": "RES090",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES046",
+    "event_type": "lesson",
+    "timestamp": "2026-06-05T11:00:00",
+    "resolution_id": "RES092",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES047",
+    "event_type": "lesson",
+    "timestamp": "2026-06-05T13:00:00",
+    "resolution_id": "RES094",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES048",
+    "event_type": "lesson",
+    "timestamp": "2026-06-05T15:00:00",
+    "resolution_id": "RES096",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES049",
+    "event_type": "lesson",
+    "timestamp": "2026-06-05T17:00:00",
+    "resolution_id": "RES098",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES050",
+    "event_type": "lesson",
+    "timestamp": "2026-06-05T19:00:00",
+    "resolution_id": "RES100",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Apply lesson in future deployments",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES051",
+    "lesson_id": "LES051",
+    "resolution_id": "RES001",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Set up real-time memory usage monitoring dashboards",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES052",
+    "lesson_id": "LES052",
+    "resolution_id": "RES003",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Create pre-deployment config validation checklist",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES053",
+    "lesson_id": "LES053",
+    "resolution_id": "RES005",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Implement automated token expiration alerts",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES054",
+    "lesson_id": "LES054",
+    "resolution_id": "RES007",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Create pre-deployment config validation checklist",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES055",
+    "lesson_id": "LES055",
+    "resolution_id": "RES009",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Schedule regular database query performance reviews",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES056",
+    "lesson_id": "LES056",
+    "resolution_id": "RES011",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Schedule regular database query performance reviews",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES057",
+    "lesson_id": "LES057",
+    "resolution_id": "RES013",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Add configuration validation to CI/CD pipeline",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES058",
+    "lesson_id": "LES058",
+    "resolution_id": "RES015",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Create pre-deployment config validation checklist",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES059",
+    "lesson_id": "LES059",
+    "resolution_id": "RES017",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Implement automated token expiration alerts",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES060",
+    "lesson_id": "LES060",
+    "resolution_id": "RES019",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Add configuration validation to CI/CD pipeline",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES061",
+    "lesson_id": "LES061",
+    "resolution_id": "RES021",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Create pre-deployment config validation checklist",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES062",
+    "lesson_id": "LES062",
+    "resolution_id": "RES023",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Schedule regular database query performance reviews",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES063",
+    "lesson_id": "LES063",
+    "resolution_id": "RES025",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Implement automated token expiration alerts",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES064",
+    "lesson_id": "LES064",
+    "resolution_id": "RES027",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Set up real-time memory usage monitoring dashboards",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES065",
+    "lesson_id": "LES065",
+    "resolution_id": "RES029",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Schedule regular database query performance reviews",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES066",
+    "lesson_id": "LES066",
+    "resolution_id": "RES031",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Set up real-time memory usage monitoring dashboards",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES067",
+    "lesson_id": "LES067",
+    "resolution_id": "RES033",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Schedule regular database query performance reviews",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES068",
+    "lesson_id": "LES068",
+    "resolution_id": "RES035",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Implement automated token expiration alerts",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES069",
+    "lesson_id": "LES069",
+    "resolution_id": "RES037",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Add configuration validation to CI/CD pipeline",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES070",
+    "lesson_id": "LES070",
+    "resolution_id": "RES039",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Add configuration validation to CI/CD pipeline",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES071",
+    "lesson_id": "LES071",
+    "resolution_id": "RES041",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Schedule regular database query performance reviews",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES072",
+    "lesson_id": "LES072",
+    "resolution_id": "RES043",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Schedule regular database query performance reviews",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES073",
+    "lesson_id": "LES073",
+    "resolution_id": "RES045",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Implement automated token expiration alerts",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES074",
+    "lesson_id": "LES074",
+    "resolution_id": "RES047",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Create pre-deployment config validation checklist",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES075",
+    "lesson_id": "LES075",
+    "resolution_id": "RES049",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Schedule regular database query performance reviews",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES076",
+    "lesson_id": "LES076",
+    "resolution_id": "RES051",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Schedule regular database query performance reviews",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES077",
+    "lesson_id": "LES077",
+    "resolution_id": "RES053",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Add configuration validation to CI/CD pipeline",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES078",
+    "lesson_id": "LES078",
+    "resolution_id": "RES055",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Add configuration validation to CI/CD pipeline",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES079",
+    "lesson_id": "LES079",
+    "resolution_id": "RES057",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Create pre-deployment config validation checklist",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES080",
+    "lesson_id": "LES080",
+    "resolution_id": "RES059",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Set up real-time memory usage monitoring dashboards",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES081",
+    "lesson_id": "LES081",
+    "resolution_id": "RES061",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Set up real-time memory usage monitoring dashboards",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES082",
+    "lesson_id": "LES082",
+    "resolution_id": "RES063",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Implement automated token expiration alerts",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES083",
+    "lesson_id": "LES083",
+    "resolution_id": "RES065",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Set up real-time memory usage monitoring dashboards",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES084",
+    "lesson_id": "LES084",
+    "resolution_id": "RES067",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Create pre-deployment config validation checklist",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES085",
+    "lesson_id": "LES085",
+    "resolution_id": "RES069",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Add configuration validation to CI/CD pipeline",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES086",
+    "lesson_id": "LES086",
+    "resolution_id": "RES071",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Implement automated token expiration alerts",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES087",
+    "lesson_id": "LES087",
+    "resolution_id": "RES073",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Create pre-deployment config validation checklist",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES088",
+    "lesson_id": "LES088",
+    "resolution_id": "RES075",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Schedule regular database query performance reviews",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES089",
+    "lesson_id": "LES089",
+    "resolution_id": "RES077",
+    "lesson_learned": "Automate config validation",
+    "recommendation": "Create pre-deployment config validation checklist",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES090",
+    "lesson_id": "LES090",
+    "resolution_id": "RES079",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Add configuration validation to CI/CD pipeline",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES091",
+    "lesson_id": "LES091",
+    "resolution_id": "RES081",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Add configuration validation to CI/CD pipeline",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "LES092",
+    "lesson_id": "LES092",
+    "resolution_id": "RES083",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Set up real-time memory usage monitoring dashboards",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES093",
+    "lesson_id": "LES093",
+    "resolution_id": "RES085",
+    "lesson_learned": "Always validate configs",
+    "recommendation": "Add configuration validation to CI/CD pipeline",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES094",
+    "lesson_id": "LES094",
+    "resolution_id": "RES087",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Set up real-time memory usage monitoring dashboards",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES095",
+    "lesson_id": "LES095",
+    "resolution_id": "RES089",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Schedule regular database query performance reviews",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES096",
+    "lesson_id": "LES096",
+    "resolution_id": "RES091",
+    "lesson_learned": "Run query optimizations",
+    "recommendation": "Schedule regular database query performance reviews",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES097",
+    "lesson_id": "LES097",
+    "resolution_id": "RES093",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Set up real-time memory usage monitoring dashboards",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "LES098",
+    "lesson_id": "LES098",
+    "resolution_id": "RES095",
+    "lesson_learned": "Add memory monitoring",
+    "recommendation": "Set up real-time memory usage monitoring dashboards",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "LES099",
+    "lesson_id": "LES099",
+    "resolution_id": "RES097",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Implement automated token expiration alerts",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "LES100",
+    "lesson_id": "LES100",
+    "resolution_id": "RES099",
+    "lesson_learned": "Monitor API tokens",
+    "recommendation": "Implement automated token expiration alerts",
+    "created_by": "carol"
+  }
+]

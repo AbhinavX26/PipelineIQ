@@ -1,0 +1,3249 @@
+[
+  {
+    "memory_id": "DEP001",
+    "event_type": "deployment",
+    "timestamp": "2026-06-01T11:00:00",
+    "service": "checkout-service",
+    "environment": "dev",
+    "version": "v3.6.5",
+    "deployment_id": "DEP001",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Optimized query",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC001"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 9f1dc",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.88",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP002",
+    "event_type": "deployment",
+    "timestamp": "2026-06-01T12:00:00",
+    "service": "notification-service",
+    "environment": "production",
+    "version": "v3.1.0",
+    "deployment_id": "DEP002",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Pipeline timeout"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Updated pool size",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC002"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit f28d4",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.98",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP003",
+    "event_type": "deployment",
+    "timestamp": "2026-06-01T13:00:00",
+    "service": "payment-service",
+    "environment": "production",
+    "version": "v3.6.4",
+    "deployment_id": "DEP003",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Increased memory allocation",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC003"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 18b47",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.86",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP004",
+    "event_type": "deployment",
+    "timestamp": "2026-06-01T14:00:00",
+    "service": "payment-service",
+    "environment": "production",
+    "version": "v2.6.7",
+    "deployment_id": "DEP004",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Network connectivity issue during deployment"
+    ],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Renewed API token",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC004"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 43a02",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.73",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP005",
+    "event_type": "deployment",
+    "timestamp": "2026-06-01T15:00:00",
+    "service": "checkout-service",
+    "environment": "staging",
+    "version": "v4.4.9",
+    "deployment_id": "DEP005",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Updated pool size",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC005"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit bb841",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.82",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP006",
+    "event_type": "deployment",
+    "timestamp": "2026-06-01T16:00:00",
+    "service": "notification-service",
+    "environment": "production",
+    "version": "v2.9.5",
+    "deployment_id": "DEP006",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Insufficient memory allocation during build"
+    ],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Updated pool size",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC006"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 25e0d",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.85",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP007",
+    "event_type": "deployment",
+    "timestamp": "2026-06-01T17:00:00",
+    "service": "checkout-service",
+    "environment": "production",
+    "version": "v3.1.7",
+    "deployment_id": "DEP007",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Fixed config file",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC007"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 52b5a",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.82",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP008",
+    "event_type": "deployment",
+    "timestamp": "2026-06-01T18:00:00",
+    "service": "notification-service",
+    "environment": "dev",
+    "version": "v3.8.8",
+    "deployment_id": "DEP008",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Build step failed at test stage"
+    ],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Optimized query",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC008"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit b2ceb",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.72",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP009",
+    "event_type": "deployment",
+    "timestamp": "2026-06-01T19:00:00",
+    "service": "notification-service",
+    "environment": "staging",
+    "version": "v1.5.0",
+    "deployment_id": "DEP009",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Optimized query",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC009"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 97991",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.98",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP010",
+    "event_type": "deployment",
+    "timestamp": "2026-06-01T20:00:00",
+    "service": "user-service",
+    "environment": "production",
+    "version": "v4.6.0",
+    "deployment_id": "DEP010",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Dependency version mismatch"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Fixed config file",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC010"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 4a8b9",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.83",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP011",
+    "event_type": "deployment",
+    "timestamp": "2026-06-01T21:00:00",
+    "service": "inventory-service",
+    "environment": "production",
+    "version": "v3.9.0",
+    "deployment_id": "DEP011",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Optimized query",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC011"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 8a1ee",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.94",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP012",
+    "event_type": "deployment",
+    "timestamp": "2026-06-01T22:00:00",
+    "service": "checkout-service",
+    "environment": "production",
+    "version": "v2.3.4",
+    "deployment_id": "DEP012",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Build step failed at test stage"
+    ],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Optimized query",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC012"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 62583",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.7",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP013",
+    "event_type": "deployment",
+    "timestamp": "2026-06-01T23:00:00",
+    "service": "inventory-service",
+    "environment": "staging",
+    "version": "v4.7.2",
+    "deployment_id": "DEP013",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Optimized query",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC013"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit ec4f4",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.95",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP014",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T00:00:00",
+    "service": "checkout-service",
+    "environment": "production",
+    "version": "v1.7.7",
+    "deployment_id": "DEP014",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Insufficient memory allocation during build"
+    ],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Optimized query",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC014"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit a3cd5",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.86",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP015",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T01:00:00",
+    "service": "checkout-service",
+    "environment": "staging",
+    "version": "v2.8.5",
+    "deployment_id": "DEP015",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Fixed config file",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC015"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 9976a",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.96",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP016",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T02:00:00",
+    "service": "payment-service",
+    "environment": "dev",
+    "version": "v4.8.1",
+    "deployment_id": "DEP016",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Network connectivity issue during deployment"
+    ],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Fixed config file",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC016"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 71693",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.94",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP017",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T03:00:00",
+    "service": "checkout-service",
+    "environment": "production",
+    "version": "v4.4.7",
+    "deployment_id": "DEP017",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Renewed API token",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC017"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 5ccba",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.89",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP018",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T04:00:00",
+    "service": "checkout-service",
+    "environment": "production",
+    "version": "v1.7.7",
+    "deployment_id": "DEP018",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Pipeline timeout"
+    ],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Updated pool size",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC018"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 8b979",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.7",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP019",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T05:00:00",
+    "service": "user-service",
+    "environment": "dev",
+    "version": "v3.4.6",
+    "deployment_id": "DEP019",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Increased memory allocation",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC019"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit a0f2b",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.94",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP020",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T06:00:00",
+    "service": "user-service",
+    "environment": "staging",
+    "version": "v1.0.5",
+    "deployment_id": "DEP020",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Compilation error in checkout module"
+    ],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Increased memory allocation",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC020"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 25d6e",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.95",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP021",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T07:00:00",
+    "service": "checkout-service",
+    "environment": "dev",
+    "version": "v1.3.8",
+    "deployment_id": "DEP021",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Renewed API token",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC021"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 6f5f2",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.92",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP022",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T08:00:00",
+    "service": "inventory-service",
+    "environment": "staging",
+    "version": "v3.7.3",
+    "deployment_id": "DEP022",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Rollback triggered due to failure"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Optimized query",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC022"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit d5a88",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.95",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP023",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T09:00:00",
+    "service": "inventory-service",
+    "environment": "dev",
+    "version": "v5.7.0",
+    "deployment_id": "DEP023",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Renewed API token",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC023"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit a6fa5",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.84",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP024",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T10:00:00",
+    "service": "user-service",
+    "environment": "staging",
+    "version": "v3.0.2",
+    "deployment_id": "DEP024",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Database migration failed"
+    ],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Fixed config file",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC024"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit dba24",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.76",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP025",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T11:00:00",
+    "service": "notification-service",
+    "environment": "dev",
+    "version": "v5.8.1",
+    "deployment_id": "DEP025",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Increased memory allocation",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC025"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 4290f",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.73",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP026",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T12:00:00",
+    "service": "notification-service",
+    "environment": "dev",
+    "version": "v5.9.2",
+    "deployment_id": "DEP026",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Compilation error in checkout module"
+    ],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Optimized query",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC026"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 1c64f",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.74",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP027",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T13:00:00",
+    "service": "checkout-service",
+    "environment": "production",
+    "version": "v3.8.4",
+    "deployment_id": "DEP027",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Renewed API token",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC027"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 4b558",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.78",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP028",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T14:00:00",
+    "service": "checkout-service",
+    "environment": "production",
+    "version": "v4.2.9",
+    "deployment_id": "DEP028",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Insufficient memory allocation during build"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Optimized query",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC028"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 20f7f",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.83",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP029",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T15:00:00",
+    "service": "inventory-service",
+    "environment": "dev",
+    "version": "v1.8.4",
+    "deployment_id": "DEP029",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Increased memory allocation",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC029"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 66736",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.95",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP030",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T16:00:00",
+    "service": "payment-service",
+    "environment": "staging",
+    "version": "v1.6.3",
+    "deployment_id": "DEP030",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Linting errors detected"
+    ],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Fixed config file",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC030"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 6c2fa",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.98",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP031",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T17:00:00",
+    "service": "inventory-service",
+    "environment": "staging",
+    "version": "v3.4.9",
+    "deployment_id": "DEP031",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Renewed API token",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC031"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit a9691",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.75",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP032",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T18:00:00",
+    "service": "payment-service",
+    "environment": "staging",
+    "version": "v1.3.7",
+    "deployment_id": "DEP032",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Linting errors detected"
+    ],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Fixed config file",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC032"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit ca795",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.93",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP033",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T19:00:00",
+    "service": "payment-service",
+    "environment": "dev",
+    "version": "v3.0.0",
+    "deployment_id": "DEP033",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Renewed API token",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC033"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 6a46a",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.92",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP034",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T20:00:00",
+    "service": "user-service",
+    "environment": "dev",
+    "version": "v5.0.2",
+    "deployment_id": "DEP034",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Security scan failed"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Increased memory allocation",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC034"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 7919a",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.82",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP035",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T21:00:00",
+    "service": "inventory-service",
+    "environment": "dev",
+    "version": "v4.8.1",
+    "deployment_id": "DEP035",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Optimized query",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC035"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 3d09f",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.71",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP036",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T22:00:00",
+    "service": "user-service",
+    "environment": "production",
+    "version": "v3.4.0",
+    "deployment_id": "DEP036",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Environment variables missing"
+    ],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Renewed API token",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC036"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 40fc1",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.8",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP037",
+    "event_type": "deployment",
+    "timestamp": "2026-06-02T23:00:00",
+    "service": "notification-service",
+    "environment": "production",
+    "version": "v2.7.3",
+    "deployment_id": "DEP037",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Renewed API token",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC037"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 5cc45",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.75",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP038",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T00:00:00",
+    "service": "checkout-service",
+    "environment": "staging",
+    "version": "v1.8.3",
+    "deployment_id": "DEP038",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Dependency version mismatch"
+    ],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Increased memory allocation",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC038"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 2db13",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.83",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP039",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T01:00:00",
+    "service": "checkout-service",
+    "environment": "staging",
+    "version": "v2.8.3",
+    "deployment_id": "DEP039",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Increased memory allocation",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC039"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit d73b4",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.78",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP040",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T02:00:00",
+    "service": "notification-service",
+    "environment": "dev",
+    "version": "v1.5.4",
+    "deployment_id": "DEP040",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Network connectivity issue during deployment"
+    ],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Optimized query",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC040"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit c9bde",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.86",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP041",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T03:00:00",
+    "service": "notification-service",
+    "environment": "production",
+    "version": "v5.2.6",
+    "deployment_id": "DEP041",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Updated pool size",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC041"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 7cbf2",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.83",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP042",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T04:00:00",
+    "service": "notification-service",
+    "environment": "production",
+    "version": "v5.3.3",
+    "deployment_id": "DEP042",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Integration tests failed"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Optimized query",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC042"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 3a4a6",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.95",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP043",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T05:00:00",
+    "service": "checkout-service",
+    "environment": "dev",
+    "version": "v5.4.8",
+    "deployment_id": "DEP043",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Updated pool size",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC043"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 5c624",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.77",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP044",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T06:00:00",
+    "service": "notification-service",
+    "environment": "production",
+    "version": "v5.1.3",
+    "deployment_id": "DEP044",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Pipeline timeout"
+    ],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Updated pool size",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC044"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit da3a4",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.79",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP045",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T07:00:00",
+    "service": "inventory-service",
+    "environment": "staging",
+    "version": "v2.2.3",
+    "deployment_id": "DEP045",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Fixed config file",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC045"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 6a920",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.98",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP046",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T08:00:00",
+    "service": "checkout-service",
+    "environment": "production",
+    "version": "v4.0.3",
+    "deployment_id": "DEP046",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Dependency version mismatch"
+    ],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Fixed config file",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC046"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 71ac7",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.9",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP047",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T09:00:00",
+    "service": "checkout-service",
+    "environment": "production",
+    "version": "v4.6.0",
+    "deployment_id": "DEP047",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Updated pool size",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC047"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit decc9",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.75",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP048",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T10:00:00",
+    "service": "checkout-service",
+    "environment": "dev",
+    "version": "v5.6.4",
+    "deployment_id": "DEP048",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Integration tests failed"
+    ],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Optimized query",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC048"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit e4c4e",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.93",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP049",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T11:00:00",
+    "service": "user-service",
+    "environment": "dev",
+    "version": "v5.5.2",
+    "deployment_id": "DEP049",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Fixed config file",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC049"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 29103",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.92",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP050",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T12:00:00",
+    "service": "payment-service",
+    "environment": "staging",
+    "version": "v1.8.6",
+    "deployment_id": "DEP050",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Integration tests failed"
+    ],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Fixed config file",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC050"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 5de96",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.72",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP051",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T13:00:00",
+    "service": "inventory-service",
+    "environment": "dev",
+    "version": "v2.6.5",
+    "deployment_id": "DEP051",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Renewed API token",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC051"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 556bf",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.87",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP052",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T14:00:00",
+    "service": "checkout-service",
+    "environment": "dev",
+    "version": "v4.6.0",
+    "deployment_id": "DEP052",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Build step failed at test stage"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Renewed API token",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC052"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit c002e",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.75",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP053",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T15:00:00",
+    "service": "checkout-service",
+    "environment": "staging",
+    "version": "v4.0.0",
+    "deployment_id": "DEP053",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Fixed config file",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC053"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 7992a",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.77",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP054",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T16:00:00",
+    "service": "inventory-service",
+    "environment": "dev",
+    "version": "v3.6.2",
+    "deployment_id": "DEP054",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Insufficient memory allocation during build"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Optimized query",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC054"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit e62f7",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.72",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP055",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T17:00:00",
+    "service": "notification-service",
+    "environment": "production",
+    "version": "v5.3.2",
+    "deployment_id": "DEP055",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Optimized query",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC055"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 97ed8",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.82",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP056",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T18:00:00",
+    "service": "checkout-service",
+    "environment": "dev",
+    "version": "v1.4.3",
+    "deployment_id": "DEP056",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Security scan failed"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Optimized query",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC056"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit f0f53",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.88",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP057",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T19:00:00",
+    "service": "inventory-service",
+    "environment": "dev",
+    "version": "v5.5.9",
+    "deployment_id": "DEP057",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Fixed config file",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC057"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 58bad",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.71",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP058",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T20:00:00",
+    "service": "user-service",
+    "environment": "production",
+    "version": "v3.0.5",
+    "deployment_id": "DEP058",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Network connectivity issue during deployment"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Updated pool size",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC058"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 6653a",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.73",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP059",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T21:00:00",
+    "service": "checkout-service",
+    "environment": "staging",
+    "version": "v2.4.8",
+    "deployment_id": "DEP059",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Optimized query",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC059"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 5a94c",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.86",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP060",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T22:00:00",
+    "service": "user-service",
+    "environment": "dev",
+    "version": "v5.7.1",
+    "deployment_id": "DEP060",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Rollback triggered due to failure"
+    ],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Updated pool size",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC060"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 37d5e",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.92",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP061",
+    "event_type": "deployment",
+    "timestamp": "2026-06-03T23:00:00",
+    "service": "inventory-service",
+    "environment": "staging",
+    "version": "v5.8.7",
+    "deployment_id": "DEP061",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Increased memory allocation",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC061"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit f3f55",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.8",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP062",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T00:00:00",
+    "service": "notification-service",
+    "environment": "production",
+    "version": "v4.6.2",
+    "deployment_id": "DEP062",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Insufficient memory allocation during build"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Increased memory allocation",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC062"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit baa1d",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.87",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP063",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T01:00:00",
+    "service": "notification-service",
+    "environment": "staging",
+    "version": "v4.7.8",
+    "deployment_id": "DEP063",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Updated pool size",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC063"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 3adad",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.77",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP064",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T02:00:00",
+    "service": "checkout-service",
+    "environment": "dev",
+    "version": "v2.4.1",
+    "deployment_id": "DEP064",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Integration tests failed"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Updated pool size",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC064"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 7716d",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.71",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP065",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T03:00:00",
+    "service": "payment-service",
+    "environment": "production",
+    "version": "v4.7.1",
+    "deployment_id": "DEP065",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Renewed API token",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC065"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 6c204",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.84",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP066",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T04:00:00",
+    "service": "inventory-service",
+    "environment": "staging",
+    "version": "v3.9.0",
+    "deployment_id": "DEP066",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Artifact upload error"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Renewed API token",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC066"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit e90b0",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.71",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP067",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T05:00:00",
+    "service": "payment-service",
+    "environment": "staging",
+    "version": "v4.1.1",
+    "deployment_id": "DEP067",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Fixed config file",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC067"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 59a3b",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.87",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP068",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T06:00:00",
+    "service": "checkout-service",
+    "environment": "production",
+    "version": "v5.7.3",
+    "deployment_id": "DEP068",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Artifact upload error"
+    ],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Renewed API token",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC068"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 2ec68",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.89",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP069",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T07:00:00",
+    "service": "checkout-service",
+    "environment": "staging",
+    "version": "v3.7.7",
+    "deployment_id": "DEP069",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Optimized query",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC069"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit d7cab",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.86",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP070",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T08:00:00",
+    "service": "payment-service",
+    "environment": "staging",
+    "version": "v1.4.2",
+    "deployment_id": "DEP070",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Docker image build failed"
+    ],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Updated pool size",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC070"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit c7c39",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.91",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP071",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T09:00:00",
+    "service": "inventory-service",
+    "environment": "production",
+    "version": "v4.6.2",
+    "deployment_id": "DEP071",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Updated pool size",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC071"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 3c989",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.79",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP072",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T10:00:00",
+    "service": "notification-service",
+    "environment": "production",
+    "version": "v2.4.9",
+    "deployment_id": "DEP072",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Unit tests did not pass"
+    ],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Optimized query",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC072"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 463fe",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.79",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP073",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T11:00:00",
+    "service": "checkout-service",
+    "environment": "staging",
+    "version": "v5.6.3",
+    "deployment_id": "DEP073",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Renewed API token",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC073"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 684ec",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.93",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP074",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T12:00:00",
+    "service": "payment-service",
+    "environment": "staging",
+    "version": "v2.8.4",
+    "deployment_id": "DEP074",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Integration tests failed"
+    ],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Fixed config file",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC074"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 347e4",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.91",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP075",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T13:00:00",
+    "service": "user-service",
+    "environment": "staging",
+    "version": "v2.5.8",
+    "deployment_id": "DEP075",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Updated pool size",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC075"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 39342",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.76",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP076",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T14:00:00",
+    "service": "payment-service",
+    "environment": "staging",
+    "version": "v5.4.4",
+    "deployment_id": "DEP076",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Pipeline timeout"
+    ],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Fixed config file",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC076"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit d66ec",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.8",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP077",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T15:00:00",
+    "service": "user-service",
+    "environment": "staging",
+    "version": "v4.2.1",
+    "deployment_id": "DEP077",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Updated pool size",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC077"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 7b11c",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Automate config validation",
+    "confidence_score": "0.76",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP078",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T16:00:00",
+    "service": "notification-service",
+    "environment": "dev",
+    "version": "v1.3.8",
+    "deployment_id": "DEP078",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Rollback triggered due to failure"
+    ],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Increased memory allocation",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC078"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 99717",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.89",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP079",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T17:00:00",
+    "service": "user-service",
+    "environment": "production",
+    "version": "v2.8.6",
+    "deployment_id": "DEP079",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Renewed API token",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC079"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit d284b",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.72",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP080",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T18:00:00",
+    "service": "user-service",
+    "environment": "dev",
+    "version": "v3.1.9",
+    "deployment_id": "DEP080",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Rollback triggered due to failure"
+    ],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Fixed config file",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC080"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 8398f",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.9",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP081",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T19:00:00",
+    "service": "notification-service",
+    "environment": "production",
+    "version": "v2.7.5",
+    "deployment_id": "DEP081",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Updated pool size",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC081"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit c500a",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.83",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP082",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T20:00:00",
+    "service": "checkout-service",
+    "environment": "staging",
+    "version": "v5.9.3",
+    "deployment_id": "DEP082",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Unit tests did not pass"
+    ],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Fixed config file",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC082"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 488c1",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.72",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP083",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T21:00:00",
+    "service": "user-service",
+    "environment": "dev",
+    "version": "v1.9.6",
+    "deployment_id": "DEP083",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Fixed config file",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC083"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 4ce5d",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.92",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP084",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T22:00:00",
+    "service": "payment-service",
+    "environment": "staging",
+    "version": "v4.7.2",
+    "deployment_id": "DEP084",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Pipeline timeout"
+    ],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Optimized query",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC084"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit c61b2",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.95",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP085",
+    "event_type": "deployment",
+    "timestamp": "2026-06-04T23:00:00",
+    "service": "notification-service",
+    "environment": "production",
+    "version": "v1.4.8",
+    "deployment_id": "DEP085",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Increased memory allocation",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC085"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit a20de",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.89",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP086",
+    "event_type": "deployment",
+    "timestamp": "2026-06-05T00:00:00",
+    "service": "checkout-service",
+    "environment": "staging",
+    "version": "v4.1.2",
+    "deployment_id": "DEP086",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Network connectivity issue during deployment"
+    ],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Optimized query",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC086"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit b6482",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.87",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP087",
+    "event_type": "deployment",
+    "timestamp": "2026-06-05T01:00:00",
+    "service": "checkout-service",
+    "environment": "dev",
+    "version": "v3.6.3",
+    "deployment_id": "DEP087",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Increased memory allocation",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC087"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit ad887",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.91",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "DEP088",
+    "event_type": "deployment",
+    "timestamp": "2026-06-05T02:00:00",
+    "service": "notification-service",
+    "environment": "production",
+    "version": "v3.4.2",
+    "deployment_id": "DEP088",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Insufficient memory allocation during build"
+    ],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Updated pool size",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC088"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit b97d3",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.97",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP089",
+    "event_type": "deployment",
+    "timestamp": "2026-06-05T03:00:00",
+    "service": "notification-service",
+    "environment": "dev",
+    "version": "v4.3.5",
+    "deployment_id": "DEP089",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Fixed config file",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC089"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 2a542",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.75",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP090",
+    "event_type": "deployment",
+    "timestamp": "2026-06-05T04:00:00",
+    "service": "user-service",
+    "environment": "production",
+    "version": "v4.7.3",
+    "deployment_id": "DEP090",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Security scan failed"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Updated pool size",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC090"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 41b6b",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.87",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP091",
+    "event_type": "deployment",
+    "timestamp": "2026-06-05T05:00:00",
+    "service": "inventory-service",
+    "environment": "staging",
+    "version": "v2.8.7",
+    "deployment_id": "DEP091",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Optimized query",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC091"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 7500f",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.81",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP092",
+    "event_type": "deployment",
+    "timestamp": "2026-06-05T06:00:00",
+    "service": "payment-service",
+    "environment": "dev",
+    "version": "v2.5.9",
+    "deployment_id": "DEP092",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Compilation error in checkout module"
+    ],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Updated pool size",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC092"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 4359a",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.92",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP093",
+    "event_type": "deployment",
+    "timestamp": "2026-06-05T07:00:00",
+    "service": "notification-service",
+    "environment": "dev",
+    "version": "v3.3.8",
+    "deployment_id": "DEP093",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Increased memory allocation",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC093"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit a4ac6",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.82",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP094",
+    "event_type": "deployment",
+    "timestamp": "2026-06-05T08:00:00",
+    "service": "checkout-service",
+    "environment": "staging",
+    "version": "v1.5.1",
+    "deployment_id": "DEP094",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Compilation error in checkout module"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Renewed API token",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC094"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit be3c3",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.92",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP095",
+    "event_type": "deployment",
+    "timestamp": "2026-06-05T09:00:00",
+    "service": "notification-service",
+    "environment": "staging",
+    "version": "v1.7.5",
+    "deployment_id": "DEP095",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Incorrect config file",
+    "resolution": "Increased memory allocation",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC095"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit ca093",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.8",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "DEP096",
+    "event_type": "deployment",
+    "timestamp": "2026-06-05T10:00:00",
+    "service": "inventory-service",
+    "environment": "production",
+    "version": "v4.9.9",
+    "deployment_id": "DEP096",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Compilation error in checkout module"
+    ],
+    "metrics": {},
+    "root_cause": "Expired API token",
+    "resolution": "Renewed API token",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC096"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 867c1",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Add memory monitoring",
+    "confidence_score": "0.84",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "DEP097",
+    "event_type": "deployment",
+    "timestamp": "2026-06-05T11:00:00",
+    "service": "inventory-service",
+    "environment": "production",
+    "version": "v3.4.1",
+    "deployment_id": "DEP097",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Unoptimized query",
+    "resolution": "Updated pool size",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC097"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit 38c5c",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.98",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP098",
+    "event_type": "deployment",
+    "timestamp": "2026-06-05T12:00:00",
+    "service": "checkout-service",
+    "environment": "staging",
+    "version": "v4.9.8",
+    "deployment_id": "DEP098",
+    "problem": "",
+    "symptoms": [],
+    "logs": [
+      "Rollback triggered due to failure"
+    ],
+    "metrics": {},
+    "root_cause": "Insufficient memory allocation",
+    "resolution": "Updated pool size",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC098"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit cc784",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Always validate configs",
+    "confidence_score": "0.74",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP099",
+    "event_type": "deployment",
+    "timestamp": "2026-06-05T13:00:00",
+    "service": "checkout-service",
+    "environment": "production",
+    "version": "v2.1.2",
+    "deployment_id": "DEP099",
+    "problem": "",
+    "symptoms": [],
+    "logs": [],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Fixed config file",
+    "status": "success",
+    "severity": "",
+    "impact": "",
+    "related_incidents": [
+      "INC099"
+    ],
+    "tags": [
+      "release",
+      "stable"
+    ],
+    "source": "git commit 25f83",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Monitor API tokens",
+    "confidence_score": "0.89",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "DEP100",
+    "event_type": "deployment",
+    "timestamp": "2026-06-05T14:00:00",
+    "service": "user-service",
+    "environment": "dev",
+    "version": "v5.2.5",
+    "deployment_id": "DEP100",
+    "problem": "Automated tests failed",
+    "symptoms": [
+      "500 errors",
+      "timeout"
+    ],
+    "logs": [
+      "Database migration failed"
+    ],
+    "metrics": {},
+    "root_cause": "Connection pool misconfigured",
+    "resolution": "Renewed API token",
+    "status": "failure",
+    "severity": "high",
+    "impact": "service disruption",
+    "related_incidents": [
+      "INC100"
+    ],
+    "tags": [
+      "hotfix",
+      "testing"
+    ],
+    "source": "git commit a78e9",
+    "recommendation": "Run pre-deployment checks",
+    "lesson_learned": "Run query optimizations",
+    "confidence_score": "0.8",
+    "created_by": "bob"
+  }
+]

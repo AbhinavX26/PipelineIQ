@@ -1,0 +1,1002 @@
+[
+  {
+    "memory_id": "RES001",
+    "event_type": "resolution",
+    "timestamp": "2026-06-01T15:00:00",
+    "root_cause_id": "RC001",
+    "resolution_id": "RES001",
+    "resolution": "Optimized query",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES002",
+    "event_type": "resolution",
+    "timestamp": "2026-06-01T16:00:00",
+    "root_cause_id": "RC002",
+    "resolution_id": "RES002",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Automate config validation",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES003",
+    "event_type": "resolution",
+    "timestamp": "2026-06-01T17:00:00",
+    "root_cause_id": "RC003",
+    "resolution_id": "RES003",
+    "resolution": "Increased memory allocation",
+    "lesson_learned": "Automate config validation",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES004",
+    "event_type": "resolution",
+    "timestamp": "2026-06-01T18:00:00",
+    "root_cause_id": "RC004",
+    "resolution_id": "RES004",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES005",
+    "event_type": "resolution",
+    "timestamp": "2026-06-01T19:00:00",
+    "root_cause_id": "RC005",
+    "resolution_id": "RES005",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES006",
+    "event_type": "resolution",
+    "timestamp": "2026-06-01T20:00:00",
+    "root_cause_id": "RC006",
+    "resolution_id": "RES006",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "RES007",
+    "event_type": "resolution",
+    "timestamp": "2026-06-01T21:00:00",
+    "root_cause_id": "RC007",
+    "resolution_id": "RES007",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Automate config validation",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES008",
+    "event_type": "resolution",
+    "timestamp": "2026-06-01T22:00:00",
+    "root_cause_id": "RC008",
+    "resolution_id": "RES008",
+    "resolution": "Optimized query",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES009",
+    "event_type": "resolution",
+    "timestamp": "2026-06-01T23:00:00",
+    "root_cause_id": "RC009",
+    "resolution_id": "RES009",
+    "resolution": "Optimized query",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES010",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T00:00:00",
+    "root_cause_id": "RC010",
+    "resolution_id": "RES010",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Automate config validation",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES011",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T01:00:00",
+    "root_cause_id": "RC011",
+    "resolution_id": "RES011",
+    "resolution": "Optimized query",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES012",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T02:00:00",
+    "root_cause_id": "RC012",
+    "resolution_id": "RES012",
+    "resolution": "Optimized query",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES013",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T03:00:00",
+    "root_cause_id": "RC013",
+    "resolution_id": "RES013",
+    "resolution": "Optimized query",
+    "lesson_learned": "Always validate configs",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES014",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T04:00:00",
+    "root_cause_id": "RC014",
+    "resolution_id": "RES014",
+    "resolution": "Optimized query",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES015",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T05:00:00",
+    "root_cause_id": "RC015",
+    "resolution_id": "RES015",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Automate config validation",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES016",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T06:00:00",
+    "root_cause_id": "RC016",
+    "resolution_id": "RES016",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES017",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T07:00:00",
+    "root_cause_id": "RC017",
+    "resolution_id": "RES017",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES018",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T08:00:00",
+    "root_cause_id": "RC018",
+    "resolution_id": "RES018",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES019",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T09:00:00",
+    "root_cause_id": "RC019",
+    "resolution_id": "RES019",
+    "resolution": "Increased memory allocation",
+    "lesson_learned": "Always validate configs",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "RES020",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T10:00:00",
+    "root_cause_id": "RC020",
+    "resolution_id": "RES020",
+    "resolution": "Increased memory allocation",
+    "lesson_learned": "Automate config validation",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES021",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T11:00:00",
+    "root_cause_id": "RC021",
+    "resolution_id": "RES021",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Automate config validation",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES022",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T12:00:00",
+    "root_cause_id": "RC022",
+    "resolution_id": "RES022",
+    "resolution": "Optimized query",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES023",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T13:00:00",
+    "root_cause_id": "RC023",
+    "resolution_id": "RES023",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "RES024",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T14:00:00",
+    "root_cause_id": "RC024",
+    "resolution_id": "RES024",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES025",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T15:00:00",
+    "root_cause_id": "RC025",
+    "resolution_id": "RES025",
+    "resolution": "Increased memory allocation",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES026",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T16:00:00",
+    "root_cause_id": "RC026",
+    "resolution_id": "RES026",
+    "resolution": "Optimized query",
+    "lesson_learned": "Always validate configs",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES027",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T17:00:00",
+    "root_cause_id": "RC027",
+    "resolution_id": "RES027",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES028",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T18:00:00",
+    "root_cause_id": "RC028",
+    "resolution_id": "RES028",
+    "resolution": "Optimized query",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES029",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T19:00:00",
+    "root_cause_id": "RC029",
+    "resolution_id": "RES029",
+    "resolution": "Increased memory allocation",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "RES030",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T20:00:00",
+    "root_cause_id": "RC030",
+    "resolution_id": "RES030",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES031",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T21:00:00",
+    "root_cause_id": "RC031",
+    "resolution_id": "RES031",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "RES032",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T22:00:00",
+    "root_cause_id": "RC032",
+    "resolution_id": "RES032",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES033",
+    "event_type": "resolution",
+    "timestamp": "2026-06-02T23:00:00",
+    "root_cause_id": "RC033",
+    "resolution_id": "RES033",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES034",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T00:00:00",
+    "root_cause_id": "RC034",
+    "resolution_id": "RES034",
+    "resolution": "Increased memory allocation",
+    "lesson_learned": "Automate config validation",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES035",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T01:00:00",
+    "root_cause_id": "RC035",
+    "resolution_id": "RES035",
+    "resolution": "Optimized query",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES036",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T02:00:00",
+    "root_cause_id": "RC036",
+    "resolution_id": "RES036",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Automate config validation",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "RES037",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T03:00:00",
+    "root_cause_id": "RC037",
+    "resolution_id": "RES037",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Always validate configs",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "RES038",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T04:00:00",
+    "root_cause_id": "RC038",
+    "resolution_id": "RES038",
+    "resolution": "Increased memory allocation",
+    "lesson_learned": "Always validate configs",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES039",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T05:00:00",
+    "root_cause_id": "RC039",
+    "resolution_id": "RES039",
+    "resolution": "Increased memory allocation",
+    "lesson_learned": "Always validate configs",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES040",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T06:00:00",
+    "root_cause_id": "RC040",
+    "resolution_id": "RES040",
+    "resolution": "Optimized query",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES041",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T07:00:00",
+    "root_cause_id": "RC041",
+    "resolution_id": "RES041",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES042",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T08:00:00",
+    "root_cause_id": "RC042",
+    "resolution_id": "RES042",
+    "resolution": "Optimized query",
+    "lesson_learned": "Always validate configs",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES043",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T09:00:00",
+    "root_cause_id": "RC043",
+    "resolution_id": "RES043",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES044",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T10:00:00",
+    "root_cause_id": "RC044",
+    "resolution_id": "RES044",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Automate config validation",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES045",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T11:00:00",
+    "root_cause_id": "RC045",
+    "resolution_id": "RES045",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES046",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T12:00:00",
+    "root_cause_id": "RC046",
+    "resolution_id": "RES046",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES047",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T13:00:00",
+    "root_cause_id": "RC047",
+    "resolution_id": "RES047",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Automate config validation",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES048",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T14:00:00",
+    "root_cause_id": "RC048",
+    "resolution_id": "RES048",
+    "resolution": "Optimized query",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES049",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T15:00:00",
+    "root_cause_id": "RC049",
+    "resolution_id": "RES049",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES050",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T16:00:00",
+    "root_cause_id": "RC050",
+    "resolution_id": "RES050",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES051",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T17:00:00",
+    "root_cause_id": "RC051",
+    "resolution_id": "RES051",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES052",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T18:00:00",
+    "root_cause_id": "RC052",
+    "resolution_id": "RES052",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES053",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T19:00:00",
+    "root_cause_id": "RC053",
+    "resolution_id": "RES053",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Always validate configs",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES054",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T20:00:00",
+    "root_cause_id": "RC054",
+    "resolution_id": "RES054",
+    "resolution": "Optimized query",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES055",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T21:00:00",
+    "root_cause_id": "RC055",
+    "resolution_id": "RES055",
+    "resolution": "Optimized query",
+    "lesson_learned": "Always validate configs",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES056",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T22:00:00",
+    "root_cause_id": "RC056",
+    "resolution_id": "RES056",
+    "resolution": "Optimized query",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES057",
+    "event_type": "resolution",
+    "timestamp": "2026-06-03T23:00:00",
+    "root_cause_id": "RC057",
+    "resolution_id": "RES057",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Automate config validation",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES058",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T00:00:00",
+    "root_cause_id": "RC058",
+    "resolution_id": "RES058",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES059",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T01:00:00",
+    "root_cause_id": "RC059",
+    "resolution_id": "RES059",
+    "resolution": "Optimized query",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES060",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T02:00:00",
+    "root_cause_id": "RC060",
+    "resolution_id": "RES060",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Always validate configs",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES061",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T03:00:00",
+    "root_cause_id": "RC061",
+    "resolution_id": "RES061",
+    "resolution": "Increased memory allocation",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES062",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T04:00:00",
+    "root_cause_id": "RC062",
+    "resolution_id": "RES062",
+    "resolution": "Increased memory allocation",
+    "lesson_learned": "Always validate configs",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "RES063",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T05:00:00",
+    "root_cause_id": "RC063",
+    "resolution_id": "RES063",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES064",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T06:00:00",
+    "root_cause_id": "RC064",
+    "resolution_id": "RES064",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "RES065",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T07:00:00",
+    "root_cause_id": "RC065",
+    "resolution_id": "RES065",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES066",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T08:00:00",
+    "root_cause_id": "RC066",
+    "resolution_id": "RES066",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES067",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T09:00:00",
+    "root_cause_id": "RC067",
+    "resolution_id": "RES067",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Automate config validation",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES068",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T10:00:00",
+    "root_cause_id": "RC068",
+    "resolution_id": "RES068",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Automate config validation",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES069",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T11:00:00",
+    "root_cause_id": "RC069",
+    "resolution_id": "RES069",
+    "resolution": "Optimized query",
+    "lesson_learned": "Always validate configs",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES070",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T12:00:00",
+    "root_cause_id": "RC070",
+    "resolution_id": "RES070",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Always validate configs",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES071",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T13:00:00",
+    "root_cause_id": "RC071",
+    "resolution_id": "RES071",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES072",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T14:00:00",
+    "root_cause_id": "RC072",
+    "resolution_id": "RES072",
+    "resolution": "Optimized query",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES073",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T15:00:00",
+    "root_cause_id": "RC073",
+    "resolution_id": "RES073",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Automate config validation",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES074",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T16:00:00",
+    "root_cause_id": "RC074",
+    "resolution_id": "RES074",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES075",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T17:00:00",
+    "root_cause_id": "RC075",
+    "resolution_id": "RES075",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "RES076",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T18:00:00",
+    "root_cause_id": "RC076",
+    "resolution_id": "RES076",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "RES077",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T19:00:00",
+    "root_cause_id": "RC077",
+    "resolution_id": "RES077",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Automate config validation",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES078",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T20:00:00",
+    "root_cause_id": "RC078",
+    "resolution_id": "RES078",
+    "resolution": "Increased memory allocation",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES079",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T21:00:00",
+    "root_cause_id": "RC079",
+    "resolution_id": "RES079",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Always validate configs",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES080",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T22:00:00",
+    "root_cause_id": "RC080",
+    "resolution_id": "RES080",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES081",
+    "event_type": "resolution",
+    "timestamp": "2026-06-04T23:00:00",
+    "root_cause_id": "RC081",
+    "resolution_id": "RES081",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Always validate configs",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "RES082",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T00:00:00",
+    "root_cause_id": "RC082",
+    "resolution_id": "RES082",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Always validate configs",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES083",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T01:00:00",
+    "root_cause_id": "RC083",
+    "resolution_id": "RES083",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES084",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T02:00:00",
+    "root_cause_id": "RC084",
+    "resolution_id": "RES084",
+    "resolution": "Optimized query",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES085",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T03:00:00",
+    "root_cause_id": "RC085",
+    "resolution_id": "RES085",
+    "resolution": "Increased memory allocation",
+    "lesson_learned": "Always validate configs",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES086",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T04:00:00",
+    "root_cause_id": "RC086",
+    "resolution_id": "RES086",
+    "resolution": "Optimized query",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES087",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T05:00:00",
+    "root_cause_id": "RC087",
+    "resolution_id": "RES087",
+    "resolution": "Increased memory allocation",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES088",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T06:00:00",
+    "root_cause_id": "RC088",
+    "resolution_id": "RES088",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES089",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T07:00:00",
+    "root_cause_id": "RC089",
+    "resolution_id": "RES089",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES090",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T08:00:00",
+    "root_cause_id": "RC090",
+    "resolution_id": "RES090",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES091",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T09:00:00",
+    "root_cause_id": "RC091",
+    "resolution_id": "RES091",
+    "resolution": "Optimized query",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES092",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T10:00:00",
+    "root_cause_id": "RC092",
+    "resolution_id": "RES092",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES093",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T11:00:00",
+    "root_cause_id": "RC093",
+    "resolution_id": "RES093",
+    "resolution": "Increased memory allocation",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES094",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T12:00:00",
+    "root_cause_id": "RC094",
+    "resolution_id": "RES094",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES095",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T13:00:00",
+    "root_cause_id": "RC095",
+    "resolution_id": "RES095",
+    "resolution": "Increased memory allocation",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "RES096",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T14:00:00",
+    "root_cause_id": "RC096",
+    "resolution_id": "RES096",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Add memory monitoring",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "RES097",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T15:00:00",
+    "root_cause_id": "RC097",
+    "resolution_id": "RES097",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES098",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T16:00:00",
+    "root_cause_id": "RC098",
+    "resolution_id": "RES098",
+    "resolution": "Updated pool size",
+    "lesson_learned": "Always validate configs",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "RES099",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T17:00:00",
+    "root_cause_id": "RC099",
+    "resolution_id": "RES099",
+    "resolution": "Fixed config file",
+    "lesson_learned": "Monitor API tokens",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "RES100",
+    "event_type": "resolution",
+    "timestamp": "2026-06-05T18:00:00",
+    "root_cause_id": "RC100",
+    "resolution_id": "RES100",
+    "resolution": "Renewed API token",
+    "lesson_learned": "Run query optimizations",
+    "created_by": "bob"
+  }
+]

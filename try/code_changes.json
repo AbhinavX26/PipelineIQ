@@ -1,0 +1,1202 @@
+[
+  {
+    "memory_id": "CC001",
+    "event_type": "code_change",
+    "timestamp": "2026-06-01T11:00:00",
+    "deployment_id": "DEP001",
+    "source": "git commit 9f1dc",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC002",
+    "event_type": "code_change",
+    "timestamp": "2026-06-01T12:00:00",
+    "deployment_id": "DEP002",
+    "source": "git commit f28d4",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC003",
+    "event_type": "code_change",
+    "timestamp": "2026-06-01T13:00:00",
+    "deployment_id": "DEP003",
+    "source": "git commit 18b47",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC004",
+    "event_type": "code_change",
+    "timestamp": "2026-06-01T14:00:00",
+    "deployment_id": "DEP004",
+    "source": "git commit 43a02",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC005",
+    "event_type": "code_change",
+    "timestamp": "2026-06-01T15:00:00",
+    "deployment_id": "DEP005",
+    "source": "git commit bb841",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC006",
+    "event_type": "code_change",
+    "timestamp": "2026-06-01T16:00:00",
+    "deployment_id": "DEP006",
+    "source": "git commit 25e0d",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC007",
+    "event_type": "code_change",
+    "timestamp": "2026-06-01T17:00:00",
+    "deployment_id": "DEP007",
+    "source": "git commit 52b5a",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC008",
+    "event_type": "code_change",
+    "timestamp": "2026-06-01T18:00:00",
+    "deployment_id": "DEP008",
+    "source": "git commit b2ceb",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC009",
+    "event_type": "code_change",
+    "timestamp": "2026-06-01T19:00:00",
+    "deployment_id": "DEP009",
+    "source": "git commit 97991",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC010",
+    "event_type": "code_change",
+    "timestamp": "2026-06-01T20:00:00",
+    "deployment_id": "DEP010",
+    "source": "git commit 4a8b9",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC011",
+    "event_type": "code_change",
+    "timestamp": "2026-06-01T21:00:00",
+    "deployment_id": "DEP011",
+    "source": "git commit 8a1ee",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC012",
+    "event_type": "code_change",
+    "timestamp": "2026-06-01T22:00:00",
+    "deployment_id": "DEP012",
+    "source": "git commit 62583",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC013",
+    "event_type": "code_change",
+    "timestamp": "2026-06-01T23:00:00",
+    "deployment_id": "DEP013",
+    "source": "git commit ec4f4",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC014",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T00:00:00",
+    "deployment_id": "DEP014",
+    "source": "git commit a3cd5",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC015",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T01:00:00",
+    "deployment_id": "DEP015",
+    "source": "git commit 9976a",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC016",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T02:00:00",
+    "deployment_id": "DEP016",
+    "source": "git commit 71693",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC017",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T03:00:00",
+    "deployment_id": "DEP017",
+    "source": "git commit 5ccba",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC018",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T04:00:00",
+    "deployment_id": "DEP018",
+    "source": "git commit 8b979",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC019",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T05:00:00",
+    "deployment_id": "DEP019",
+    "source": "git commit a0f2b",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC020",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T06:00:00",
+    "deployment_id": "DEP020",
+    "source": "git commit 25d6e",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC021",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T07:00:00",
+    "deployment_id": "DEP021",
+    "source": "git commit 6f5f2",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC022",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T08:00:00",
+    "deployment_id": "DEP022",
+    "source": "git commit d5a88",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC023",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T09:00:00",
+    "deployment_id": "DEP023",
+    "source": "git commit a6fa5",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC024",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T10:00:00",
+    "deployment_id": "DEP024",
+    "source": "git commit dba24",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC025",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T11:00:00",
+    "deployment_id": "DEP025",
+    "source": "git commit 4290f",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC026",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T12:00:00",
+    "deployment_id": "DEP026",
+    "source": "git commit 1c64f",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC027",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T13:00:00",
+    "deployment_id": "DEP027",
+    "source": "git commit 4b558",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC028",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T14:00:00",
+    "deployment_id": "DEP028",
+    "source": "git commit 20f7f",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC029",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T15:00:00",
+    "deployment_id": "DEP029",
+    "source": "git commit 66736",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC030",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T16:00:00",
+    "deployment_id": "DEP030",
+    "source": "git commit 6c2fa",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC031",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T17:00:00",
+    "deployment_id": "DEP031",
+    "source": "git commit a9691",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC032",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T18:00:00",
+    "deployment_id": "DEP032",
+    "source": "git commit ca795",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC033",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T19:00:00",
+    "deployment_id": "DEP033",
+    "source": "git commit 6a46a",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC034",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T20:00:00",
+    "deployment_id": "DEP034",
+    "source": "git commit 7919a",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC035",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T21:00:00",
+    "deployment_id": "DEP035",
+    "source": "git commit 3d09f",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC036",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T22:00:00",
+    "deployment_id": "DEP036",
+    "source": "git commit 40fc1",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC037",
+    "event_type": "code_change",
+    "timestamp": "2026-06-02T23:00:00",
+    "deployment_id": "DEP037",
+    "source": "git commit 5cc45",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC038",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T00:00:00",
+    "deployment_id": "DEP038",
+    "source": "git commit 2db13",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC039",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T01:00:00",
+    "deployment_id": "DEP039",
+    "source": "git commit d73b4",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC040",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T02:00:00",
+    "deployment_id": "DEP040",
+    "source": "git commit c9bde",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC041",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T03:00:00",
+    "deployment_id": "DEP041",
+    "source": "git commit 7cbf2",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC042",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T04:00:00",
+    "deployment_id": "DEP042",
+    "source": "git commit 3a4a6",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC043",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T05:00:00",
+    "deployment_id": "DEP043",
+    "source": "git commit 5c624",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC044",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T06:00:00",
+    "deployment_id": "DEP044",
+    "source": "git commit da3a4",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC045",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T07:00:00",
+    "deployment_id": "DEP045",
+    "source": "git commit 6a920",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC046",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T08:00:00",
+    "deployment_id": "DEP046",
+    "source": "git commit 71ac7",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC047",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T09:00:00",
+    "deployment_id": "DEP047",
+    "source": "git commit decc9",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC048",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T10:00:00",
+    "deployment_id": "DEP048",
+    "source": "git commit e4c4e",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC049",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T11:00:00",
+    "deployment_id": "DEP049",
+    "source": "git commit 29103",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC050",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T12:00:00",
+    "deployment_id": "DEP050",
+    "source": "git commit 5de96",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC051",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T13:00:00",
+    "deployment_id": "DEP051",
+    "source": "git commit 556bf",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC052",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T14:00:00",
+    "deployment_id": "DEP052",
+    "source": "git commit c002e",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC053",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T15:00:00",
+    "deployment_id": "DEP053",
+    "source": "git commit 7992a",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC054",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T16:00:00",
+    "deployment_id": "DEP054",
+    "source": "git commit e62f7",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC055",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T17:00:00",
+    "deployment_id": "DEP055",
+    "source": "git commit 97ed8",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC056",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T18:00:00",
+    "deployment_id": "DEP056",
+    "source": "git commit f0f53",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC057",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T19:00:00",
+    "deployment_id": "DEP057",
+    "source": "git commit 58bad",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC058",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T20:00:00",
+    "deployment_id": "DEP058",
+    "source": "git commit 6653a",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC059",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T21:00:00",
+    "deployment_id": "DEP059",
+    "source": "git commit 5a94c",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC060",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T22:00:00",
+    "deployment_id": "DEP060",
+    "source": "git commit 37d5e",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC061",
+    "event_type": "code_change",
+    "timestamp": "2026-06-03T23:00:00",
+    "deployment_id": "DEP061",
+    "source": "git commit f3f55",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC062",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T00:00:00",
+    "deployment_id": "DEP062",
+    "source": "git commit baa1d",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC063",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T01:00:00",
+    "deployment_id": "DEP063",
+    "source": "git commit 3adad",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC064",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T02:00:00",
+    "deployment_id": "DEP064",
+    "source": "git commit 7716d",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC065",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T03:00:00",
+    "deployment_id": "DEP065",
+    "source": "git commit 6c204",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC066",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T04:00:00",
+    "deployment_id": "DEP066",
+    "source": "git commit e90b0",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC067",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T05:00:00",
+    "deployment_id": "DEP067",
+    "source": "git commit 59a3b",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC068",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T06:00:00",
+    "deployment_id": "DEP068",
+    "source": "git commit 2ec68",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC069",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T07:00:00",
+    "deployment_id": "DEP069",
+    "source": "git commit d7cab",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC070",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T08:00:00",
+    "deployment_id": "DEP070",
+    "source": "git commit c7c39",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC071",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T09:00:00",
+    "deployment_id": "DEP071",
+    "source": "git commit 3c989",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC072",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T10:00:00",
+    "deployment_id": "DEP072",
+    "source": "git commit 463fe",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC073",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T11:00:00",
+    "deployment_id": "DEP073",
+    "source": "git commit 684ec",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC074",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T12:00:00",
+    "deployment_id": "DEP074",
+    "source": "git commit 347e4",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC075",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T13:00:00",
+    "deployment_id": "DEP075",
+    "source": "git commit 39342",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC076",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T14:00:00",
+    "deployment_id": "DEP076",
+    "source": "git commit d66ec",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC077",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T15:00:00",
+    "deployment_id": "DEP077",
+    "source": "git commit 7b11c",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC078",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T16:00:00",
+    "deployment_id": "DEP078",
+    "source": "git commit 99717",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC079",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T17:00:00",
+    "deployment_id": "DEP079",
+    "source": "git commit d284b",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC080",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T18:00:00",
+    "deployment_id": "DEP080",
+    "source": "git commit 8398f",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC081",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T19:00:00",
+    "deployment_id": "DEP081",
+    "source": "git commit c500a",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC082",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T20:00:00",
+    "deployment_id": "DEP082",
+    "source": "git commit 488c1",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC083",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T21:00:00",
+    "deployment_id": "DEP083",
+    "source": "git commit 4ce5d",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC084",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T22:00:00",
+    "deployment_id": "DEP084",
+    "source": "git commit c61b2",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC085",
+    "event_type": "code_change",
+    "timestamp": "2026-06-04T23:00:00",
+    "deployment_id": "DEP085",
+    "source": "git commit a20de",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC086",
+    "event_type": "code_change",
+    "timestamp": "2026-06-05T00:00:00",
+    "deployment_id": "DEP086",
+    "source": "git commit b6482",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC087",
+    "event_type": "code_change",
+    "timestamp": "2026-06-05T01:00:00",
+    "deployment_id": "DEP087",
+    "source": "git commit ad887",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC088",
+    "event_type": "code_change",
+    "timestamp": "2026-06-05T02:00:00",
+    "deployment_id": "DEP088",
+    "source": "git commit b97d3",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC089",
+    "event_type": "code_change",
+    "timestamp": "2026-06-05T03:00:00",
+    "deployment_id": "DEP089",
+    "source": "git commit 2a542",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC090",
+    "event_type": "code_change",
+    "timestamp": "2026-06-05T04:00:00",
+    "deployment_id": "DEP090",
+    "source": "git commit 41b6b",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC091",
+    "event_type": "code_change",
+    "timestamp": "2026-06-05T05:00:00",
+    "deployment_id": "DEP091",
+    "source": "git commit 7500f",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC092",
+    "event_type": "code_change",
+    "timestamp": "2026-06-05T06:00:00",
+    "deployment_id": "DEP092",
+    "source": "git commit 4359a",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC093",
+    "event_type": "code_change",
+    "timestamp": "2026-06-05T07:00:00",
+    "deployment_id": "DEP093",
+    "source": "git commit a4ac6",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC094",
+    "event_type": "code_change",
+    "timestamp": "2026-06-05T08:00:00",
+    "deployment_id": "DEP094",
+    "source": "git commit be3c3",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC095",
+    "event_type": "code_change",
+    "timestamp": "2026-06-05T09:00:00",
+    "deployment_id": "DEP095",
+    "source": "git commit ca093",
+    "created_by": "alice",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC096",
+    "event_type": "code_change",
+    "timestamp": "2026-06-05T10:00:00",
+    "deployment_id": "DEP096",
+    "source": "git commit 867c1",
+    "created_by": "dave",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC097",
+    "event_type": "code_change",
+    "timestamp": "2026-06-05T11:00:00",
+    "deployment_id": "DEP097",
+    "source": "git commit 38c5c",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC098",
+    "event_type": "code_change",
+    "timestamp": "2026-06-05T12:00:00",
+    "deployment_id": "DEP098",
+    "source": "git commit cc784",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC099",
+    "event_type": "code_change",
+    "timestamp": "2026-06-05T13:00:00",
+    "deployment_id": "DEP099",
+    "source": "git commit 25f83",
+    "created_by": "carol",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  },
+  {
+    "memory_id": "CC100",
+    "event_type": "code_change",
+    "timestamp": "2026-06-05T14:00:00",
+    "deployment_id": "DEP100",
+    "source": "git commit a78e9",
+    "created_by": "bob",
+    "tags": [
+      "feature",
+      "update"
+    ]
+  }
+]
