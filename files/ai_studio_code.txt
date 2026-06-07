@@ -1,1 +1,29 @@
-
+/app
+  layout.tsx          (Global Providers + Font)
+  page.tsx            (Landing Page)
+  /auth
+    /login/page.tsx
+    /signup/page.tsx
+  /(dashboard)
+    layout.tsx        (Shared Sidebar + TopNav)
+    dashboard/page.tsx
+    timeline/page.tsx
+    /services/[id]/page.tsx
+    /deployments/[id]/page.tsx
+    /deployments/new/page.tsx
+    /chat/page.tsx
+    /analytics/page.tsx
+/components
+  /layout
+    Sidebar.tsx
+    TopNav.tsx
+  /ui
+    RiskBadge.tsx
+    StatCard.tsx
+    HindsightPanel.tsx
+    DeploymentRow.tsx
+/lib
+  mock-data.ts        (Data for UI demonstration)
+  utils.ts            (Tailwind merging)
+/styles
+  globals.css         (Design Blueprint Colors)
