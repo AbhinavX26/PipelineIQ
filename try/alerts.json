@@ -1,0 +1,1002 @@
+[
+  {
+    "memory_id": "AL001",
+    "event_type": "alert",
+    "timestamp": "2026-06-01T12:00:00",
+    "deployment_id": "DEP001",
+    "incident_id": "INC001",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.97",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL002",
+    "event_type": "alert",
+    "timestamp": "2026-06-01T13:00:00",
+    "deployment_id": "DEP002",
+    "incident_id": "INC002",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.77",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL003",
+    "event_type": "alert",
+    "timestamp": "2026-06-01T14:00:00",
+    "deployment_id": "DEP003",
+    "incident_id": "INC003",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.75",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL004",
+    "event_type": "alert",
+    "timestamp": "2026-06-01T15:00:00",
+    "deployment_id": "DEP004",
+    "incident_id": "INC004",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.9",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL005",
+    "event_type": "alert",
+    "timestamp": "2026-06-01T16:00:00",
+    "deployment_id": "DEP005",
+    "incident_id": "INC005",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.81",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL006",
+    "event_type": "alert",
+    "timestamp": "2026-06-01T17:00:00",
+    "deployment_id": "DEP006",
+    "incident_id": "INC006",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.91",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL007",
+    "event_type": "alert",
+    "timestamp": "2026-06-01T18:00:00",
+    "deployment_id": "DEP007",
+    "incident_id": "INC007",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.79",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL008",
+    "event_type": "alert",
+    "timestamp": "2026-06-01T19:00:00",
+    "deployment_id": "DEP008",
+    "incident_id": "INC008",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.78",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL009",
+    "event_type": "alert",
+    "timestamp": "2026-06-01T20:00:00",
+    "deployment_id": "DEP009",
+    "incident_id": "INC009",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.93",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL010",
+    "event_type": "alert",
+    "timestamp": "2026-06-01T21:00:00",
+    "deployment_id": "DEP010",
+    "incident_id": "INC010",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.88",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL011",
+    "event_type": "alert",
+    "timestamp": "2026-06-01T22:00:00",
+    "deployment_id": "DEP011",
+    "incident_id": "INC011",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.85",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL012",
+    "event_type": "alert",
+    "timestamp": "2026-06-01T23:00:00",
+    "deployment_id": "DEP012",
+    "incident_id": "INC012",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.9",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL013",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T00:00:00",
+    "deployment_id": "DEP013",
+    "incident_id": "INC013",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.71",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL014",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T01:00:00",
+    "deployment_id": "DEP014",
+    "incident_id": "INC014",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.77",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL015",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T02:00:00",
+    "deployment_id": "DEP015",
+    "incident_id": "INC015",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.71",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL016",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T03:00:00",
+    "deployment_id": "DEP016",
+    "incident_id": "INC016",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.9",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL017",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T04:00:00",
+    "deployment_id": "DEP017",
+    "incident_id": "INC017",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.79",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL018",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T05:00:00",
+    "deployment_id": "DEP018",
+    "incident_id": "INC018",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.87",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL019",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T06:00:00",
+    "deployment_id": "DEP019",
+    "incident_id": "INC019",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.74",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL020",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T07:00:00",
+    "deployment_id": "DEP020",
+    "incident_id": "INC020",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.84",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL021",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T08:00:00",
+    "deployment_id": "DEP021",
+    "incident_id": "INC021",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.9",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL022",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T09:00:00",
+    "deployment_id": "DEP022",
+    "incident_id": "INC022",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.96",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL023",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T10:00:00",
+    "deployment_id": "DEP023",
+    "incident_id": "INC023",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.78",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL024",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T11:00:00",
+    "deployment_id": "DEP024",
+    "incident_id": "INC024",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.8",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL025",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T12:00:00",
+    "deployment_id": "DEP025",
+    "incident_id": "INC025",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.88",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL026",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T13:00:00",
+    "deployment_id": "DEP026",
+    "incident_id": "INC026",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.94",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL027",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T14:00:00",
+    "deployment_id": "DEP027",
+    "incident_id": "INC027",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.72",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL028",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T15:00:00",
+    "deployment_id": "DEP028",
+    "incident_id": "INC028",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.88",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL029",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T16:00:00",
+    "deployment_id": "DEP029",
+    "incident_id": "INC029",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.87",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL030",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T17:00:00",
+    "deployment_id": "DEP030",
+    "incident_id": "INC030",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.77",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL031",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T18:00:00",
+    "deployment_id": "DEP031",
+    "incident_id": "INC031",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.86",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL032",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T19:00:00",
+    "deployment_id": "DEP032",
+    "incident_id": "INC032",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.89",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL033",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T20:00:00",
+    "deployment_id": "DEP033",
+    "incident_id": "INC033",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.97",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL034",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T21:00:00",
+    "deployment_id": "DEP034",
+    "incident_id": "INC034",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.85",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL035",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T22:00:00",
+    "deployment_id": "DEP035",
+    "incident_id": "INC035",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.86",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL036",
+    "event_type": "alert",
+    "timestamp": "2026-06-02T23:00:00",
+    "deployment_id": "DEP036",
+    "incident_id": "INC036",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.76",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL037",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T00:00:00",
+    "deployment_id": "DEP037",
+    "incident_id": "INC037",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.92",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL038",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T01:00:00",
+    "deployment_id": "DEP038",
+    "incident_id": "INC038",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.84",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL039",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T02:00:00",
+    "deployment_id": "DEP039",
+    "incident_id": "INC039",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.92",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL040",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T03:00:00",
+    "deployment_id": "DEP040",
+    "incident_id": "INC040",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.87",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL041",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T04:00:00",
+    "deployment_id": "DEP041",
+    "incident_id": "INC041",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.71",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL042",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T05:00:00",
+    "deployment_id": "DEP042",
+    "incident_id": "INC042",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.88",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL043",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T06:00:00",
+    "deployment_id": "DEP043",
+    "incident_id": "INC043",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.88",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL044",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T07:00:00",
+    "deployment_id": "DEP044",
+    "incident_id": "INC044",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.78",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL045",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T08:00:00",
+    "deployment_id": "DEP045",
+    "incident_id": "INC045",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.79",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL046",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T09:00:00",
+    "deployment_id": "DEP046",
+    "incident_id": "INC046",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.9",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL047",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T10:00:00",
+    "deployment_id": "DEP047",
+    "incident_id": "INC047",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.9",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL048",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T11:00:00",
+    "deployment_id": "DEP048",
+    "incident_id": "INC048",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.93",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL049",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T12:00:00",
+    "deployment_id": "DEP049",
+    "incident_id": "INC049",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.79",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL050",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T13:00:00",
+    "deployment_id": "DEP050",
+    "incident_id": "INC050",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.7",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL051",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T14:00:00",
+    "deployment_id": "DEP051",
+    "incident_id": "INC051",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.99",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL052",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T15:00:00",
+    "deployment_id": "DEP052",
+    "incident_id": "INC052",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.72",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL053",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T16:00:00",
+    "deployment_id": "DEP053",
+    "incident_id": "INC053",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.8",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL054",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T17:00:00",
+    "deployment_id": "DEP054",
+    "incident_id": "INC054",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.71",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL055",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T18:00:00",
+    "deployment_id": "DEP055",
+    "incident_id": "INC055",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.88",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL056",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T19:00:00",
+    "deployment_id": "DEP056",
+    "incident_id": "INC056",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.78",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL057",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T20:00:00",
+    "deployment_id": "DEP057",
+    "incident_id": "INC057",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.98",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL058",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T21:00:00",
+    "deployment_id": "DEP058",
+    "incident_id": "INC058",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.77",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL059",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T22:00:00",
+    "deployment_id": "DEP059",
+    "incident_id": "INC059",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.75",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL060",
+    "event_type": "alert",
+    "timestamp": "2026-06-03T23:00:00",
+    "deployment_id": "DEP060",
+    "incident_id": "INC060",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.96",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL061",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T00:00:00",
+    "deployment_id": "DEP061",
+    "incident_id": "INC061",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.72",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL062",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T01:00:00",
+    "deployment_id": "DEP062",
+    "incident_id": "INC062",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.8",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL063",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T02:00:00",
+    "deployment_id": "DEP063",
+    "incident_id": "INC063",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.77",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL064",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T03:00:00",
+    "deployment_id": "DEP064",
+    "incident_id": "INC064",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.81",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL065",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T04:00:00",
+    "deployment_id": "DEP065",
+    "incident_id": "INC065",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.77",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL066",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T05:00:00",
+    "deployment_id": "DEP066",
+    "incident_id": "INC066",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.85",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL067",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T06:00:00",
+    "deployment_id": "DEP067",
+    "incident_id": "INC067",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.88",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL068",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T07:00:00",
+    "deployment_id": "DEP068",
+    "incident_id": "INC068",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.84",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL069",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T08:00:00",
+    "deployment_id": "DEP069",
+    "incident_id": "INC069",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.81",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL070",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T09:00:00",
+    "deployment_id": "DEP070",
+    "incident_id": "INC070",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.93",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL071",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T10:00:00",
+    "deployment_id": "DEP071",
+    "incident_id": "INC071",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.98",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL072",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T11:00:00",
+    "deployment_id": "DEP072",
+    "incident_id": "INC072",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.78",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL073",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T12:00:00",
+    "deployment_id": "DEP073",
+    "incident_id": "INC073",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.84",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL074",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T13:00:00",
+    "deployment_id": "DEP074",
+    "incident_id": "INC074",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.79",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL075",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T14:00:00",
+    "deployment_id": "DEP075",
+    "incident_id": "INC075",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.88",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL076",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T15:00:00",
+    "deployment_id": "DEP076",
+    "incident_id": "INC076",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.74",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL077",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T16:00:00",
+    "deployment_id": "DEP077",
+    "incident_id": "INC077",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.95",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL078",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T17:00:00",
+    "deployment_id": "DEP078",
+    "incident_id": "INC078",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.96",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL079",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T18:00:00",
+    "deployment_id": "DEP079",
+    "incident_id": "INC079",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.7",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL080",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T19:00:00",
+    "deployment_id": "DEP080",
+    "incident_id": "INC080",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.93",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL081",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T20:00:00",
+    "deployment_id": "DEP081",
+    "incident_id": "INC081",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.95",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL082",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T21:00:00",
+    "deployment_id": "DEP082",
+    "incident_id": "INC082",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.78",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL083",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T22:00:00",
+    "deployment_id": "DEP083",
+    "incident_id": "INC083",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.91",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL084",
+    "event_type": "alert",
+    "timestamp": "2026-06-04T23:00:00",
+    "deployment_id": "DEP084",
+    "incident_id": "INC084",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.74",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL085",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T00:00:00",
+    "deployment_id": "DEP085",
+    "incident_id": "INC085",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.76",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL086",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T01:00:00",
+    "deployment_id": "DEP086",
+    "incident_id": "INC086",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.86",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL087",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T02:00:00",
+    "deployment_id": "DEP087",
+    "incident_id": "INC087",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.82",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL088",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T03:00:00",
+    "deployment_id": "DEP088",
+    "incident_id": "INC088",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.79",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL089",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T04:00:00",
+    "deployment_id": "DEP089",
+    "incident_id": "INC089",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.88",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL090",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T05:00:00",
+    "deployment_id": "DEP090",
+    "incident_id": "INC090",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.88",
+    "created_by": "bob"
+  },
+  {
+    "memory_id": "AL091",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T06:00:00",
+    "deployment_id": "DEP091",
+    "incident_id": "INC091",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.9",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL092",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T07:00:00",
+    "deployment_id": "DEP092",
+    "incident_id": "INC092",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.85",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL093",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T08:00:00",
+    "deployment_id": "DEP093",
+    "incident_id": "INC093",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.73",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL094",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T09:00:00",
+    "deployment_id": "DEP094",
+    "incident_id": "INC094",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.93",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL095",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T10:00:00",
+    "deployment_id": "DEP095",
+    "incident_id": "INC095",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.99",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL096",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T11:00:00",
+    "deployment_id": "DEP096",
+    "incident_id": "INC096",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.73",
+    "created_by": "dave"
+  },
+  {
+    "memory_id": "AL097",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T12:00:00",
+    "deployment_id": "DEP097",
+    "incident_id": "INC097",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.94",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL098",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T13:00:00",
+    "deployment_id": "DEP098",
+    "incident_id": "INC098",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.83",
+    "created_by": "carol"
+  },
+  {
+    "memory_id": "AL099",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T14:00:00",
+    "deployment_id": "DEP099",
+    "incident_id": "INC099",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.71",
+    "created_by": "alice"
+  },
+  {
+    "memory_id": "AL100",
+    "event_type": "alert",
+    "timestamp": "2026-06-05T15:00:00",
+    "deployment_id": "DEP100",
+    "incident_id": "INC100",
+    "recommendation": "Run pre-deployment checks",
+    "confidence_score": "0.78",
+    "created_by": "dave"
+  }
+]
