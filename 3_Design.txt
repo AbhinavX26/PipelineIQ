@@ -1,0 +1,331 @@
+﻿Design Blueprint — PipelineIQ
+UI/UX Specification
+Version: 1.0
+Date: June 2026
+Theme: Dark Mode, Minimal & Precise, Data-dense but clean
+
+1. Design Philosophy
+PipelineIQ is a professional tool used by engineers under pressure. The design must be:
+    • Information-first: Dense but scannable. Every pixel earns its place.
+    • Dark & focused: Dark mode as default. Reduces eye strain during late-night incidents.
+    • Color as signal: Green = healthy, Yellow = warning, Red = critical. Never decorative.
+    • Calm under fire: Clean layout means fast cognition when something is breaking in production.
+    • Subtle depth: Cards, borders, and micro-shadows create hierarchy without clutter.
+Design inspiration: Linear, Grafana, Vercel dashboard, Datadog UI
+
+2. Color Palette
+Background Primary:     #0D0F14   (near-black, page background)
+Background Secondary:   #13161E   (cards, panels)
+Background Tertiary:    #1C2030   (inputs, table rows)
+Background Hover:       #232840   (hover states)
+
+Border:                 #2A2F45   (subtle dividers)
+Border Accent:          #3D4566   (active/focus)
+
+Text Primary:           #F0F2FF   (main text)
+Text Secondary:         #8B91B5   (labels, captions)
+Text Muted:             #4A5070   (placeholders, disabled)
+
+Accent Blue:            #4F7FFF   (primary CTA, links, active states)
+Accent Blue Glow:       #4F7FFF22 (glow effect on hover)
+
+Risk Green:             #22C55E   (low risk, healthy)
+Risk Yellow:            #EAB308   (medium risk, warning)
+Risk Orange:            #F97316   (elevated risk)
+Risk Red:               #EF4444   (high risk, critical)
+Risk Red Glow:          #EF444422 (card border glow on critical)
+
+Purple Accent:          #A78BFA   (AI / Hindsight memory tags)
+Cyan Accent:            #22D3EE   (infrastructure change indicators)
+
+3. Typography
+Font Family:    "Inter" (primary), system-ui fallback
+Code Font:      "JetBrains Mono" or "Fira Code" (for logs, hashes, versions)
+
+Scale:
+  Display:      32px / 700 weight     — Page titles
+  H1:           24px / 600 weight     — Section headers
+  H2:           18px / 600 weight     — Card titles
+  H3:           14px / 600 weight     — Sub-labels, table headers
+  Body:         14px / 400 weight     — Main content
+  Small:        12px / 400 weight     — Captions, timestamps
+  Micro:        11px / 500 weight     — Tags, badges
+
+Line height:    1.5 (body), 1.3 (headings)
+Letter spacing: -0.01em (headings), normal (body)
+
+4. Spacing & Grid
+Base unit: 4px
+Spacing scale: 4, 8, 12, 16, 24, 32, 48, 64px
+
+Page layout:
+  - Max content width: 1440px
+  - Page padding: 32px horizontal on desktop, 16px on tablet, 12px on mobile
+  - Sidebar width: 240px (collapsed: 64px)
+  - Main content: fluid fill
+
+Grid: 12-column on desktop, 6-col on tablet, 4-col on mobile
+Card border-radius: 10px
+Button border-radius: 6px
+Input border-radius: 6px
+Tag border-radius: 4px
+
+5. Pages
+5.1 Landing Page (/)
+Purpose: Marketing + conversion. Clean, dark, impactful.
+Layout:
+[Navbar: Logo | Features | Pricing | Docs | Log In | Get Started (CTA)]
+
+Hero Section:
+  ├── Headline: "Your pipeline's memory. Finally."
+  ├── Subheadline: "PipelineIQ learns from every deployment, failure, and incident to prevent the next one."
+  ├── CTA buttons: [Get Started Free] [Watch Demo]
+  └── Hero illustration: Animated deployment timeline with risk scores appearing
+
+Feature Strip (3 columns):
+  ├── 🧠 Memory-Driven Intelligence
+  ├── ⚡ Real-Time Risk Scoring
+  └── 🔍 Natural Language Queries
+
+Social proof: "Used by engineering teams at ___"
+Footer
+
+5.2 Authentication Pages (/auth/login, /auth/signup)
+Layout: Centered card on dark background, logo top.
+Components:
+    • Input fields with subtle glow on focus (Accent Blue border)
+    • Password field with show/hide toggle
+    • "Continue with GitHub / Google" SSO buttons
+    • Inline form validation (real-time, no submit-to-see-error)
+
+5.3 Dashboard (/dashboard)
+The core view. Most used page.
+[Sidebar] [Main Content Area]
+
+Main Content:
+┌─────────────────────────────────────────────────────────────┐
+│  Good morning, Arjun.  |  Org: Acme Corp  |  [+ New Deploy] │
+├──────────────┬──────────────┬──────────────┬────────────────┤
+│ DEPLOYMENTS  │  INCIDENTS   │  AVG RISK    │  SERVICES UP   │
+│   48 (7d)    │   3 Active   │   Score: 42  │   12 / 14      │
+│  ↑ 12%       │  ↓ 1 since   │  ↓ from 61  │  ● ● ●         │
+└──────────────┴──────────────┴──────────────┴────────────────┘
+
+Timeline (last 7 days) — horizontal scrollable swimlane per service
+  ├── auth-service:     ●────●────────●──── (colored dots = deploys)
+  ├── payment-service:  ────●──────────●─── 
+  └── api-gateway:      ─●────●────●──────
+
+Recent Events List (right panel or below):
+  ├── [RED] INCIDENT P1 — payment-service — "Latency spike post-deploy" — 2h ago
+  ├── [YELLOW] DEPLOY — auth-service v2.4.1 — Staging — Risk: 67 — 4h ago
+  └── [GREEN] DEPLOY — api-gateway v1.9.0 — Production — Risk: 18 — 6h ago
+
+AI Insight Banner (top of timeline, dismissible):
+  "⚡ Heads up: payment-service has been deployed 4 times this week. Historical pattern: 3/4 Friday deploys caused incidents."
+
+5.4 Service Detail Page (/services/:id)
+[Breadcrumb: Dashboard > Services > auth-service]
+
+Header Card:
+  ├── Service name + icon
+  ├── Environment badges: [dev] [staging] [prod]
+  ├── Health status: ● Healthy / ● Degraded
+  └── [Log Deployment] [Log Incident] buttons
+
+Row 1: Charts (3-column)
+  ├── Deployment frequency (bar chart, 30d)
+  ├── Risk score trend (line chart, 30d)
+  └── Failure rate (line chart, 30d)
+
+Row 2: Deployment History Table
+  Columns: Version | Environment | Deployed By | Time | Risk Score | Outcome | Actions
+  ├── Row hover: highlight + "View Details" appears
+  └── Risk score: colored pill badge (green/yellow/orange/red)
+
+Row 3: Related Incidents
+  ├── Severity icon | Title | Duration | Resolution | Linked Deploy
+
+5.5 Deployment Detail Page (/deployments/:id)
+[Breadcrumb: Dashboard > Deployments > auth-service v2.4.1]
+
+Left Column (60%):
+  ├── Deployment Metadata Card
+  │     ├── Service, Version, Environment, Deployer, Timestamp
+  │     ├── Linked PR, Commit hash (clickable)
+  │     └── Change summary
+  │
+  ├── Risk Score Card
+  │     ├── Large score display: [67] with ring gauge
+  │     ├── Risk level: MEDIUM
+  │     └── Risk factors:
+  │           • "Service had 2 failures in last 14 days"
+  │           • "Friday 5pm — historically risky deploy window"
+  │           • "Database migration included in this diff"
+  │
+  └── Recommendations Card
+        ├── "Run smoke test on /api/auth/login before promoting to prod"
+        ├── "Have rollback plan ready — last migration caused 8min downtime"
+        └── "Consider deploying to 10% of prod traffic first"
+
+Right Column (40%):
+  └── Hindsight Memory Panel
+        Title: "🧠 Similar past events"
+        ├── [Card] auth-service v2.3.8 | Dec 2025 | Outcome: ⚠️ Incident
+        │         "Same migration pattern. Caused 8m downtime."
+        ├── [Card] auth-service v2.2.1 | Oct 2025 | Outcome: ✅ Success
+        │         "Similar change set, deployed Tuesday morning — no issues."
+        └── [Card] payment-service v1.7.0 | Sep 2025 | Outcome: ⚠️ Degraded
+                  "Comparable DB migration. Latency +40% for 30 min."
+
+5.6 New Deployment Page (/deployments/new)
+Multi-step form (step indicator at top: 1 → 2 → 3 Analyze)
+
+Step 1 — Basics:
+  ├── Service (searchable dropdown)
+  ├── Environment (segmented control: Dev | Staging | Production)
+  ├── Version / Tag (text input with monospace font)
+  └── Change summary (textarea)
+
+Step 2 — Context:
+  ├── PR / Commit URL (text input)
+  ├── Ticket link (text input)
+  ├── Infrastructure changes? (toggle)
+  │     └── [if yes]: What changed? (textarea)
+  └── Deployer name (auto-filled from session)
+
+Step 3 — Risk Analysis (full-width panel):
+  ├── [Loading animation] "Analyzing risk... querying memory..."
+  └── [Result]:
+        ├── Risk Score ring + breakdown
+        ├── Hindsight cards (past similar events)
+        └── Recommendations
+        └── [Log Deployment] [Cancel]
+
+5.7 AI Chat Interface (/chat)
+Layout: Left sidebar (conversation history) + Right main chat area
+
+Chat Area:
+  ├── Conversation thread (messages in bubbles)
+  │     ├── User message: right-aligned, accent blue background
+  │     └── AI response: left-aligned, card background with AI avatar
+  │             ├── Text answer
+  │             ├── Linked event chips (clickable)
+  │             └── [Optional] Inline chart or table
+  │
+  └── Input bar (sticky bottom):
+        ├── Text input with placeholder "Ask about deployments, incidents, patterns..."
+        ├── [Attach context] icon
+        └── [Send] button
+
+Left sidebar:
+  └── Conversation history list (by date)
+
+5.8 Analytics Page (/analytics)
+Top bar: [Date picker] [Service filter] [Environment filter] [Export ▼]
+
+Row 1 (2-column charts):
+  ├── Deployments per day (area chart, stacked by environment)
+  └── Incident rate over time (bar chart, colored by severity)
+
+Row 2 (3-column charts):
+  ├── Risk score distribution (histogram)
+  ├── Top 5 failure categories (horizontal bar chart)
+  └── MTTR trend (line chart)
+
+Row 3: Full-width heatmap
+  └── Deploy frequency heatmap (day × hour, GitHub contribution style)
+       "Fridays at 5pm are your riskiest deploy window 🔥"
+
+6. Global Components
+6.1 Sidebar Navigation
+Width: 240px (expanded) / 64px (icon-only collapsed)
+Background: #13161E
+Top: Logo + org name
+
+Nav items:
+  [🏠] Dashboard
+  [📋] Timeline
+  [🚀] Deployments
+  [🔥] Incidents
+  [📊] Analytics
+  [💬] AI Chat          ← highlighted with purple dot
+  [⚙️] Settings
+
+Bottom:
+  User avatar + name + role
+  [Collapse sidebar] toggle
+6.2 Top Navigation Bar
+Height: 56px
+Background: #0D0F14 (slightly transparent with blur)
+Contains:
+  ├── Page title / breadcrumb (left)
+  ├── Global search (center): "Search services, deployments, incidents..."
+  ├── [Notifications bell] (right)
+  └── [User avatar menu] (right)
+6.3 Risk Score Badge
+Variants:
+  [  18  ]  — green pill     — Low Risk
+  [  42  ]  — yellow pill    — Medium Risk
+  [  67  ]  — orange pill    — Elevated Risk
+  [  89  ]  — red pill       — High Risk
+
+On hover: tooltip with top 2 risk factors
+6.4 Event Cards (Timeline & Lists)
+Card structure:
+┌─────────────────────────────────────────────────────┐
+│ [●] auth-service v2.4.1          Risk: [67] MEDIUM  │
+│ Deployed to Production by @arjun · 4 hours ago       │
+│ "Includes DB schema migration for users table"       │
+│ [View Details →]                                     │
+└─────────────────────────────────────────────────────┘
+Left border color = risk level color
+6.5 Hindsight Memory Panel
+Purple-tinted card with brain emoji header
+┌─────────────────────────────────────────────────────┐
+│ 🧠 Memory Retrieved (3 similar events)     [Powered  │
+│                                            by Hindsight] │
+├─────────────────────────────────────────────────────┤
+│ auth-service v2.3.8 · Dec 12, 2025                  │
+│ Outcome: ⚠️ Incident (P2)                            │
+│ Similarity: 94%                                      │
+│ "Same migration on users table — 8min downtime"      │
+└─────────────────────────────────────────────────────┘
+6.6 Notification Toast
+Position: Top-right, stacked
+Variants: Success (green left border) | Warning (yellow) | Error (red) | Info (blue)
+Auto-dismiss: 4 seconds
+Example: "✓ Deployment logged. Risk analysis complete."
+6.7 Empty States
+Every list/table has a zero-state:
+  Icon (ghost illustration) + Headline + Sub-text + CTA button
+  Example:
+    [pipeline illustration]
+    "No deployments yet"
+    "Log your first deployment to start building your operational memory."
+    [+ Log First Deployment]
+
+7. Mobile Responsiveness
+Element	Desktop (1280px+)	Tablet (768–1279px)	Mobile (< 768px)
+Sidebar	Always visible, 240px	Collapsible, icon-only default	Hidden, bottom nav bar
+Dashboard cards	4-column grid	2-column grid	1-column stack
+Timeline	Multi-row swimlane	Scrollable horizontally	Single service view, vertical list
+Charts	Full size	Reduced size	Single chart at a time, swipeable
+Tables	All columns	Hide low-priority columns	Card view per row
+Chat panel	Split layout	Full width	Full screen
+New Deploy form	2-column	1-column	1-column, full screen
+
+Bottom Navigation Bar (Mobile only):
+[🏠 Home] [🚀 Deploy] [💬 Chat] [📊 Stats] [⚙️ More]
+
+8. Animations & Micro-interactions
+    • Risk score ring: Animated fill on load (0 → score value, 600ms ease-out)
+    • Timeline dots: Fade + scale in on page load (staggered, 50ms delay each)
+    • AI response: Text streams in word-by-word (typewriter feel)
+    • Hindsight panel: Cards slide in from right with slight delay
+    • Sidebar collapse: Smooth 200ms width transition
+    • Toast notifications: Slide in from top-right, fade out
+    • Chart data: Animate on first render (recharts default animate=true)
+    • Risk badge hover: Subtle blue glow pulse (1s loop)
+    • Page transitions: Fade cross-dissolve, 150ms
+
